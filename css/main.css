@@ -108,3 +108,46 @@ section.fourthSection > pre{
     font-family: 'Outfit', sans-serif;
     margin-left: 40px;
 }
+
+@media only screen and (max-width: 450px) {
+    body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    div.mainDiv{
+        margin: 0;
+    }
+    div.imgDiv {
+        position: relative;
+
+    }
+
+    div.imgDiv > img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    section.firstSection {
+        padding-top: 250px;
+    }
+
+    section.firstSection > h1,
+    section.firstSection > p {
+        margin-top: 10px;
+    }
+}
+
+
+
+
