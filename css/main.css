@@ -10,12 +10,11 @@ hr{
 div.mainDiv{
     margin: auto;
     width: 450px;
-    height: 1440px;
+    height: 1900px;
     background-color: white;
     margin-top: 50px;
     border: 1px solid white;
     border-radius: 15px;
-    position: relative;
 }
 
 div.imgDiv > img{
@@ -89,4 +88,23 @@ section.thirdSection > ol{
     font-family: 'Outfit', sans-serif;
     color: hsl(14, 45%, 36%);
     line-height: 35px;
+}
+
+section.fourthSection{
+    margin-left: 20px;
+}
+
+section.fourthSection > h1{
+    font-family: 'Young Serif', serif;
+    color: hsl(14, 45%, 36%);
+} 
+
+section.fourthSection > p{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+section.fourthSection > pre{
+    font-family: 'Outfit', sans-serif;
+    margin-left: 40px;
 }
