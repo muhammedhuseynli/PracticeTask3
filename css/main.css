@@ -31,3 +31,26 @@ section.firstSection > p {
     margin-left: 20px;
     font-size: smaller;
 }
+
+div.secondDiv{
+    background-color: hsl(330, 100%, 98%);
+    width: 410px;
+    height: 130px; 
+    border: 1px solid hsl(330, 100%, 98%); 
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+div.secondDiv > h4{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(332, 51%, 32%);
+    margin-left: 5px;
+}
+
+div.secondDiv > ul{
+    font-family: 'Outfit', sans-serif;
+}
+
+div.secondDiv > ul > li{
+    color: hsl(332, 51%, 32%);
+}
