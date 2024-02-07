@@ -24,6 +24,7 @@ div.imgDiv > img{
 section.firstSection > h1 {
     font-family: 'Young Serif', serif;
     margin-left: 20px;
+    font-size: 180%;
 }
 
 section.firstSection > p {
@@ -45,12 +46,26 @@ div.secondDiv > h4{
     font-family: 'Outfit', sans-serif;
     color: hsl(332, 51%, 32%);
     margin-left: 5px;
+    margin-top: 10px;
 }
 
 div.secondDiv > ul{
     font-family: 'Outfit', sans-serif;
+    color: hsl(332, 51%, 32%);
+    line-height: 25px;
 }
 
-div.secondDiv > ul > li{
-    color: hsl(332, 51%, 32%);
+section.secondSection{
+    margin-left: 20px;
+}
+
+section.secondSection > h1{
+    font-family: 'Young Serif', serif;
+    color: hsl(14, 45%, 36%);
+}
+
+section.secondSection > ul{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(14, 45%, 36%);
+    line-height: 35px;
 }
