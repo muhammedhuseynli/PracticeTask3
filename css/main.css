@@ -1,5 +1,5 @@
 body{
-    background-color: hsl(330, 100%, 98%);
+    background-color: hsl(330, 100%, 98%); 
 }
 
 div.mainDiv{
@@ -19,4 +19,15 @@ div.imgDiv > img{
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 10px;
+}
+
+section.firstSection > h1 {
+    font-family: 'Young Serif', serif;
+    margin-left: 20px;
+}
+
+section.firstSection > p {
+    font-family: 'Outfit', sans-serif;
+    margin-left: 20px;
+    font-size: smaller;
 }
